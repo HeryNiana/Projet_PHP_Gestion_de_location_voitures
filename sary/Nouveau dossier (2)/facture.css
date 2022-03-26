@@ -1,0 +1,40 @@
+h1.titre{
+	color: red;
+	font-style: italic;
+	font-family: 'Lucida Handwriting';
+	text-align: center;
+	text-decoration: underline;
+}
+
+
+table.tab1{
+	margin-left: 300px;
+	float: left;
+	color:blue;
+	font-size: 20px;
+}
+table.tab2{
+	margin-left: 650px;
+	color:blue;
+	font-size: 20px;
+
+}
+td.td1{
+	font-size: 20px;
+	color: green;
+	background-color: orange;
+	width: 150px;
+	height: 50px;
+}
+table.tab3{
+	clear: both;
+	border: 1px black solid;
+	margin-left: 200px;
+}
+td.contenu1{
+	background-color:  rgb(170, 255, 255);
+	width: 100px;
+	height: 40px;
+	color:  rgb(85, 0, 0);
+
+}

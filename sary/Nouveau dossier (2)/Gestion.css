@@ -1,0 +1,145 @@
+body{
+		width: 100%;
+		
+	}
+	h1{
+		left:10%;
+		font-size: 30px;
+		font-family: Consolas;
+		color:  rgb(255, 85, 127);
+		text-shadow: 2px 3px 3px  yellow;
+		text-decoration: underline;
+	}
+	header{
+		
+		height:50px;
+		background-color:  rgb(170, 170, 127);
+		
+	}
+	nav#nav{
+		width: 20%;
+		left: 0%
+		height:500px;
+		top:50px;
+		background-color:  aqua;
+		float: left;
+		display: inline-block;
+		border-radius: 5px;
+		
+	}
+	div#menu{
+		border-top: 2px white solid;
+		border-left:  2px aqua solid;
+		border-right: 2px aqua solid;
+	}
+	div#liste{
+		border-top:    2px white solid;
+		border-bottom: 2px white solid;
+		border-left:   2px aqua solid;
+		border-right:  2px aqua solid;
+	}
+	div#menu,div#liste{
+		display: block;
+	}
+	a#menu{
+		color: white;
+		font-size: 15px;
+	}
+	article{
+		background-color: white;
+		height: 100%;
+		left: 20%;
+		top: 50px;
+		overflow: auto;
+	}
+	a#a1{
+		width: 100px;
+		background-color: 
+		 rgb(255, 170, 255);
+		 border-top-left-radius:5px;
+		border-top-right-radius:5px;
+
+	}
+	a#a2{
+		width: 100px;
+		border-top-left-radius:5px;
+		border-top-right-radius:5px;
+	}
+	a#a3{
+		width: 100px;
+		border-top-left-radius:5px;
+		border-top-right-radius:5px;  
+	}
+	div#div3{
+		top: 100px;
+		border-radius: 10px;
+		margin:auto;
+		position: relative;
+		text-align: justify;
+		
+		top: 50px;
+	}
+	div#div2{
+		border-radius: 10px;
+		margin:auto;
+		position: relative;
+		
+		text-align: justify;
+		
+		top: 50px;
+	}
+	div#div4{
+		border-radius: 10px;
+		margin:auto;
+		position: relative;
+		text-align: justify;
+		
+		
+		top: 50px;
+	}
+	table.tableauCoul tr:nth-child(odd){
+	background-color: pink;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 23px;
+}
+table.tableauCoul tr:nth-child(even){
+	background-color:rgb(170, 170, 127);
+	border-radius: 10px;
+	text-align: center;
+	font-size: 23px;
+}
+table.tableauCoul tr:nth-child(1){
+	background-color:orange;
+}
+table.tableauCoul{
+	border-collapse: collapse;
+	border-left: 3px solid black; 
+}
+h1.header{
+	text-shadow: 2px 2px 2px green inset;
+}
+
+tr.okay:not(:first-child):hover{background-color:   rgb(255, 170, 255);}
+ 
+#menu1{
+	font-family: "Lucida Handwriting";
+	font-style:  italic;
+	color: white;
+}
+#stock{
+	font-size: 20px;
+	font-family: Consolas;
+	color:white;
+}
+tbody{
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding: 0 0 0 30px;
+}
+
+}
+span{
+	display: inline;
+	text-decoration: underline;
+}

@@ -1,0 +1,190 @@
+h3.titre{
+	color: lime;
+	font-family: 'Lucida Handwriting';
+	text-decoration: underline;
+
+}
+p.para1{
+	color: red;
+	font-style: italic;
+}
+p.papagraphe{
+	color: green;
+	text-decoration: underline;
+}
+a.aa{
+	color: red;
+}
+h1.h2{
+	color: red;
+	text-decoration: underline;
+	font-family: 'Lucida Handwriting';
+	text-align: center;
+	text-shadow: 3px 3px 3px black;
+}
+td.tableau{
+	color: green;
+	text-decoration: underline;
+	font-family: Consolas;
+}
+td.boutton{
+	font-style: italic;
+	color: red;
+	margin-left: 300;
+}
+div.div{
+	background-color:  rgb(255, 170, 127);
+	width: 400px;
+	height: 220px;
+	border-radius: 20px;
+	float: left;
+}
+input.ajouter{
+	color: red;
+}
+div.div2{
+	width: auto;
+	display: inline-block;
+	border-radius: 8px;
+	
+}
+/*td.table2{
+	color: black;
+	font-family: Consolas;
+	background-color: rgb(85, 170, 0);
+
+*/
+}
+table{
+	border-collapse: collapse;
+}
+h2.header{
+	text-decoration: underline;
+	color: blue;
+	font-style: italic;
+	text-align: center;
+}
+header{
+	border-radius: 20px;
+	background-color: fuchsia;
+}
+p.para2{
+	font-style: italic;
+	color: rgba(120,20,150);
+	
+}
+a::hover{
+	
+	background-color: red;
+}
+p.para2,a{
+	display: inline;
+}
+p.para{
+	color: red;
+}
+
+td.td{
+	color: blue;
+	font-size: 20px;
+	font-style: italic;
+
+}
+/*td.contenu{
+	color: white;
+	background-color: orange;
+	border-radius: 5px;
+}
+*/
+input.bouton{
+	color: red;
+	font-size: 20;
+	font-family: Consolas;
+}
+
+a:hover{
+	color: red;
+	background-color: rgb(255, 255, 127);
+}
+
+select#select{
+	width: 150px;
+}
+/*
+td.data{
+	background-color: rgb(255, 255, 127);
+	font-size: 18px;
+	color:  rgb(0, 0, 127);
+	font-family: 'Lucida Handwriting'
+}
+*/
+a.modif{
+	background-color:  rgb(170, 255, 255);
+}
+div.body{
+	border-radius: 10px;
+	background-color:  rgb(0, 0, 127);
+	width: 700px;
+	height: 50px;
+}
+
+#im3{
+ position:relative;
+ left:0px;
+ animation-name: im3;
+animation-delay: 0s;
+animation-duration:10s;
+animation-timing-function:ease;
+animation-iteration-count: infinite;
+ 
+}
+@keyframes im3{
+			   0%{left:0px; top:0px;}
+              /*25%{left:50%; top:0px;}
+               45%{left:80%;top:0px;}*/
+               50%{left:80%;top:0px;}
+               /*75%{left:50%;top:0px;}
+               85%{left:0px;top:0px;}*/
+              100%{left:0px;top:0px;}
+          }
+#pr{
+	position: relative;
+	left: 0px;
+	background-color: lime;
+	animation-name: pr;
+	animation-delay: 0s;
+	animation-duration: 0.5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite; 
+}
+@keyframes pr{
+	0%{background-color: rgb(170, 255, 255);}
+	33%{background-color:  rgb(170, 85, 0);}
+	66%{background-color: rgb(255, 0, 0);}
+	100%{background-color:  rgb(255, 0, 255);}
+}
+
+table.tableauCoul tr:nth-child(odd){
+	background-color: pink;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 20px;
+}
+table.tableauCoul tr:nth-child(even){
+	background-color:rgb(170, 170, 127);
+	border-radius: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+table.tableauCoul tr:nth-child(1){
+	background-color:orange;
+}
+table.tableauCoul{
+	border-collapse: collapse;
+	border-left: 3px solid black; 
+}
+h1.header{
+	text-shadow: 2px 2px 2px green inset;
+}
+
+tr.okay:not(:first-child):hover{background-color:   aqua;}

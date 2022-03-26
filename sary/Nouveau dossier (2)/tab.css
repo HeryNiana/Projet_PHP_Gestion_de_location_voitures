@@ -1,0 +1,15 @@
+table{
+	border-collapse: collapse;
+}
+
+td.table2{
+	font-style: bold;
+	font-size: 20px;
+	border-collapse: collapse;
+	background-color: aqua;
+}
+td.contenu{
+	color: white;
+	background-color: orange;
+	border-radius: 5px;
+}
