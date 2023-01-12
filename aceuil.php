@@ -1,8 +1,8 @@
 
 <?php
-include "codevoiture.php";
-//pour verifier si l'utilisateur est bien connecté
 session_start();
+include "codevoiture.php";
+include('connection.php');
   if (!isset($_SESSION['name']))
  {
    echo "<script>location.href='index.php'</script>";
@@ -68,10 +68,6 @@ session_start();
  <div class="a3">
  <div id="pagination">
  	<h1>Gestion des voitures</h1>
- 	<?php
- 		//inclusion de la fonction qui permet de se connecter à la base de données
-		include('connection.php');
- 	?>
  	<h3 id="list_voiture" style="font-style: italic;font-family: 'Lucida Handwriting'; color: #DB0073;  font-size: 15px;">=>Nombres total des voitures:
  		<?php
  		$nombre=$bdd->query("SELECT count(*) as total from voiture");
